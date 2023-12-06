@@ -64,3 +64,4 @@ if __name__ == '__main__':
     tokenWriter()
     api = apiSessionCreator()
     orderPlacer(api)
+    print()
