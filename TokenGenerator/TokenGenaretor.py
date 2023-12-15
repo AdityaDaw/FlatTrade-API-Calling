@@ -1,8 +1,12 @@
 def tokenGenerator(sid: str) -> str:
+    """
+    Please use your respective ID's here
+    """
     import pyotp
     import requests
     from urllib.parse import parse_qs, urlparse
     import hashlib
+
 
     APIKEY = '8cac21d8da3c4430a357e16423d14d73K'
     secretKey = '2023.80807a86c1ee467ea36a3dbb25119e8fa082af04eb4b9e62K'
